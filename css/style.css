@@ -406,6 +406,7 @@ input[type="radio"].visually-hidden {
 .social-button:hover path,
 .social-button:focus path {
   fill: #000000;
+  transition: 1s all;
 }
 
 .footer-copyright b {
