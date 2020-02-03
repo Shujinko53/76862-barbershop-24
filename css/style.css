@@ -123,6 +123,7 @@ input[type="radio"].visually-hidden {
 
 .main-navigation-wrapper {
   width: 100%;
+  min-height: 70px;
   margin-bottom: 60px;
 
   background-color: #000000;
@@ -583,6 +584,37 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 
+.inner-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 60px 0;
+}
+
+.inner-column-left,
+.inner-column-right {
+  width: 460px;
+}
+
+.inner-column-left *:first-child,
+.inner-column-right *:first-child {
+  margin-top: 0;
+}
+
+.inner-column-left *:last-child,
+.inner-column-right *:last-child {
+  margin-bottom: 0;
+}
+
+.inner-columns > h2:first-child {
+  width: 100%;
+  margin-top: 0;
+}
+
+.short-text {
+  padding-right: 80px;
+}
+
 .main-footer {
   margin-top: 65px;
   padding: 60px 0;
@@ -916,7 +948,7 @@ input[type="radio"].visually-hidden {
   margin-right: 0;
 }
 
-.breadcrumbs li::after {
+.breadcrumbs li:not(:last-child)::after {
   content: "";
 
   position: absolute;
