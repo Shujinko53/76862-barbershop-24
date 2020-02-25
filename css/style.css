@@ -435,13 +435,100 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
 }
 
+.product-photos {
+  width: 460px;
+}
+
+.product-photo-preview {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.product-photo-preview li {
+  width: 140px;
+  height: 149px;
+  margin-right: 20px;
+
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-photo-preview li:nth-child(3n){
+  margin-right: 0;
+}
+
+.product-photo-full {
+  width: 460px;
+  height: 498px;
+  margin: 0;
+  margin-bottom: 20px;
+
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-description {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 10px;
+  margin-bottom: 29px;
+}
+
+.product-description p {
+  width: 200px;
+}
+
+.product-article {
+  text-align: right;
+  color: #aeaeae;
+}
+
+.product-price b {
+  width: 112px;
+  padding-top: 13px;
+  padding-right: 36px;
+  padding-bottom: 11px;
+  padding-left: 36px;
+
+  line-height: 20px;
+  text-align: center;
+
+  background-color: #e5e5e5;
+
+  box-sizing: border-box;
+}
+
+.product-price .button {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
 .product-info {
   width: 390px;
+  padding-top: 23px;
+}
+
+.product-info p {
+  margin: 0;
 }
 
 .product-info h3 {
+  margin: 0;
+  margin-bottom: 27px;
+
   font-size: 24px;
   line-height: 30px;
+}
+
+.product-info .product-text {
+  margin-bottom: 35px;
+}
+
+.product-info .product-price {
+  display: flex;
+  margin-bottom: 63px;
 }
 
 .product-info ul {
@@ -1176,6 +1263,7 @@ input[type="radio"].visually-hidden {
 .catalog-item-price b {
   width: 112px;
   padding: 13px 25px 11px;
+
   font-size: 14px;
   line-height: 20px;
   text-align: center;
@@ -1185,7 +1273,9 @@ input[type="radio"].visually-hidden {
 
 .catalog-item-price .button {
   width: 50px;
-  padding: 12px 18px;
+  padding: 13px 18px 11px;
+  margin-right: 0;
+
   line-height: 20px;
   color: #ffffff;
 }
@@ -1233,32 +1323,4 @@ input[type="radio"].visually-hidden {
   color: #000000;
 
   background-color: #ffffff;
-}
-
-.product-photo-preview {
-  list-style: none;
-}
-
-.product-photo-preview li {
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-}
-
-.product-photo-full {
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-}
-
-.product-article {
-  text-align: right;
-  color: #aeaeae;
-}
-
-.product-price b {
-  line-height: 20px;
-  text-align: center;
-
-  background-color: #e5e5e5;
-}
-
-.product-photos {
-  width: 460px;
 }
