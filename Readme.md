@@ -2,6 +2,7 @@
 
 * Студент: [Дмитрий Красавин](https://up.htmlacademy.ru/htmlcss/24/user/76862).
 
+<a href="https://shujinko53.github.io/76862-barbershop-24/">Опубликованная версия</a>
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
